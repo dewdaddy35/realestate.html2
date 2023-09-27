@@ -1,0 +1,197 @@
+/*global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    }
+    .container{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+.flex-container{
+        display: flex;
+        background-color: white;
+        color: black;
+        }
+.flex-img{
+        display: flex;
+            background-color: white;
+            color: black;
+            padding-left: 180px;
+            padding-right: 10px;
+            width: 120%;
+        }
+
+        .btn-details{
+    display:block;
+    background-color: green ;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+.flex-pad{
+    padding-left: 140px;
+    color: white;
+    
+}
+p{line-height: 1;
+
+    
+}
+h1{
+    text-align: left;
+    padding: 20px;
+}
+h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a{ 
+    color: white;
+}
+img{
+    max-width: 100%;
+}
+/*header*/
+header{
+    background-image: url(img/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height:300px;
+    text-align: center;
+}
+header .flex-container{
+    margin-left: 8%;
+}
+header h1{
+    color:white;
+}
+h2{
+    color: black;
+}
+nav{
+    word-spacing: 15px;
+}
+header .img{
+    width: 2px
+}
+header nav{
+
+        margin-left: 80%;
+    position: relative; top: -45px;
+}
+header p{
+        text-align: left;
+        position: relative; top: 100px;
+        font-size: 20px;
+        padding-left: 10px;
+        }
+/*main*/
+.flex-blue{
+display: flex;
+background-color: beige;
+}
+
+/*utilities*/
+.more-about{
+    margin-right: 1rem;
+    text-align: justify;
+}
+.more-about img{
+max-width: 100%;
+margin:20px 0;
+}
+.more-about h3{
+    color: black;
+    font-size: 30px;
+    margin: 20px 0;
+}
+.more-about p{
+    color: black;
+}
+/*houses*/
+.houses-item{
+    background-color: white;
+    /* padding: 5%; */
+    text-align: left;
+    margin-right: 10px;
+    
+}
+
+.houses-item-text p{
+    display: flex;
+    align-items: flex-start;
+    padding: 0 30px;
+color: black;
+    }
+    .houses-item h3{
+margin: 20px 0;
+}
+.houses-item p.price{
+    color: green;
+    font-weight: 700;
+    line-height: 2;
+}
+/* .flex-houses{
+    display:flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: 110px;
+    height: 100%;
+} */
+
+.flex-houses{
+    display: flex;
+    align-items: flex-start;
+    margin-right: 110px;
+}
+
+.houses-about{
+    margin-right: 1rem;
+    text-align: justify;
+}
+/* .houses-about img{
+max-width: 100%;
+margin: 30px 0;
+} */
+.houses-about h3{
+    color: black;
+    font-size: 30px;
+    margin: 20px 0;
+}
+.houses-about p{
+    color: black;
+}
+.flex-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flex-icon img{
+    margin-right: 10px;
+}
+/* .flex-p{
+    margin-right: 150px;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: white;
+    color: black;
+} */
+/* .houses-img{
+    margin-right: 20px 30;
+    max-width: 100%;
+    padding-left: 100px;
+} */
+/* .flex-main{
+    background-color: rgba(1, 123, 103, 0.295);
+    padding-left: 5%;
+    margin: 10px;
+    text-align: center;
+} */
